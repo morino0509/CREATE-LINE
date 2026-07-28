@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CREATE LINEのコーポレートサイト制作実績です。ホテルイベントを中心に、企画・運営・空間演出まで一貫してサポートするイベントプロデュース会社を想定してデザイン・コーディングを行いました。">
+
+  <!-- ogp -->
+  <meta property="og:url" content=" ページのURL ※絶対パスで記述">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CREATE LINE | コーポレートサイト">
+  <meta property="og:description" content="ホテルイベントを中心としたイベントプロデュース会社『CREATE LINE』を想定したコーポレートサイト制作実績です。">
+  <meta property="og:site_name" content="CREATE LINE">
+  <meta property="og:image" content="https://morino0509.github.io/mirai-dental/assets/images/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="robots" content="noindex">
+
+  <!-- favicon apple-touch-icon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/images/256.svg">
+
+  <title>CREATE LINE｜コーポレートサイト（ポートフォリオ制作）</title>
+
+    <!-- web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!--css  -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+     <header class="header">
+
+    <div class="header-logo__container">
+      <a href="index.html">
+        <h1><img class="header-logo" src="assets/images/create-line_logo--white.svg" alt=CREATE LINEロゴ></h1>
+        <img class="header-logo__sp" src="assets/images/sp_logo.svg" alt=sp用CREATE LINEロゴ>
+      </a>
+    </div>
+
+      <ul class="nav__list">
+        <li class="nav__item"><a href="about-us.html">ABOUT US</a></li>
+
+        <li class="nav__item"><a href="what-we-do.html">WHAT WE DO</a></li>
+
+        <li class="nav__item"><a href="works.html">WORKS</a></li>
+
+        <li class="nav__item"><a href="news.html">NEWS</a></li>
+
+        <li class="nav__item"><a href="contact.html">CONTACT</a></li>
+
+        <li class="nav__item recruit__btn">
+          <a href="●●.html" target="_blank">RECRUIT</a>
+        </li>
+      </ul>
+
+
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="メニューを開く">
+      <span class="bar-top"></span>
+      <span class="bar-btm"></span>
+    </button>
+
+    
+  </header>
+
+  <ul class="hamburger__list">
+
+        <li class="hamburger__item"><a href="index.html">TOP</a></li>
+
+        <li class="hamburger__item"><a href="about-us.html">ABOUT US</a></li>
+
+        <li class="hamburger__item"><a href="what-we-do.html">WHAT WE DO</a></li>
+
+        <li class="hamburger__item"><a href="works.html">WORKS</a></li>
+
+        <li class="hamburger__item"><a href="news.html">NEWS</a></li>
+
+        <li class="hamburger__item"><a href="contact.html">CONTACT</a></li>
+
+        <li class="hamburger__item recruit__btn">
+          <a href="●●.html" target="_blank">RECRUIT</a>
+        </li>
+      </ul>
+    <main>
+
+
+    <span class="bg-text">CONTACT</span>
+
+
+        <a class="recruitment-btn" href="">採用についてはこちら</a>
+
+<form class="contact-form" action="#" method="post" enctype="multipart/form-data">
+
+  <!-- お名前 -->
+  <div class="contact-form__item">
+    <label for="name">お名前 <span class="contact-form__required">必須</span></label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <!-- 会社名 -->
+  <div class="contact-form__item">
+    <label for="company">会社名 <span class="contact-form__required">必須</span></label>
+    <input type="text" id="company" name="company" required>
+  </div>
+
+  <!-- 会社URL -->
+  <div class="contact-form__item">
+    <label for="company-url">会社URL</label>
+    <input type="url" id="company-url" name="company_url">
+  </div>
+
+  <!-- メールアドレス -->
+  <div class="contact-form__item">
+    <label for="email">メールアドレス <span class="contact-form__required">必須</span></label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <!-- 電話番号 -->
+  <div class="contact-form__item">
+    <label for="tel">電話番号</label>
+    <input type="tel" id="tel" name="tel">
+  </div>
+
+  <!-- お問い合わせ種別 -->
+  <div class="contact-form__item">
+    <p>お問い合わせ種別 <span class="contact-form__required">必須</span></p>
+<div class="contact-form__list-wrapper">
+    <label><input type="radio" name="category" required> 新規イベントのご相談</label>
+    <label><input type="radio" name="category"> ブランドイベントのご相談</label>
+    <label><input type="radio" name="category"> 協業・パートナーシップ</label>
+    <label><input type="radio" name="category"> ホテルイベントのご相談</label>
+    <label><input type="radio" name="category"> ウェディング・パーティー</label>
+    <label><input type="radio" name="category"> その他</label>
+  </div>
+</div>
+
+  <!-- 開催予定時期 -->
+  <div class="contact-form__item">
+    <p>開催予定時期</p>
+<div class="contact-form__list-wrapper">
+    <div class="contact-form__schedule-wrapper">
+        <label>
+            <input type="radio" name="schedule">
+            <input type="text" name="schedule_text" placeholder="〇年〇月頃">
+        </label>
+    </div>
+
+    <label>
+      <input type="radio" name="schedule">
+      未定
+    </label>
+  </div>
+</div>
+
+  <!-- 開催場所 -->
+  <div class="contact-form__item">
+    <p>開催場所</p>
+<div class="contact-form__list-wrapper">
+    <label><input type="radio" name="place"> 決定済み</label>
+    <label><input type="radio" name="place"> 検討中</label>
+    <label><input type="radio" name="place"> 未定</label>
+  </div>
+</div>
+
+  <!-- 想定参加人数 -->
+  <div class="contact-form__item">
+    <p>想定参加人数</p>
+<div class="contact-form__list-wrapper">
+    <label><input type="radio" name="people"> ～50名</label>
+    <label><input type="radio" name="people"> 50～100名</label>
+    <label><input type="radio" name="people"> 100～300名</label>
+    <label><input type="radio" name="people"> 300名以上</label>
+    <label><input type="radio" name="people"> 未定</label>
+  </div>
+</div>
+
+  <!-- ご予算 -->
+  <div class="contact-form__item">
+    <p>ご予算感</p>
+<div class="contact-form__list-wrapper">
+    <label><input type="radio" name="budget"> ～100万円</label>
+    <label><input type="radio" name="budget"> 100～300万円</label>
+    <label><input type="radio" name="budget"> 300～500万円</label>
+    <label><input type="radio" name="budget"> 500万円以上</label>
+    <label><input type="radio" name="budget"> 未定</label>
+  </div>
+</div>
+
+  <!-- サポート内容 -->
+  <div class="contact-form__item">
+    <p>ご希望のサポート内容<br>（複数選択可）</p>
+<div class="contact-form__list-wrapper">
+    <label><input type="checkbox" name="support[]" value="企画"> イベント企画・コンセプト設計</label>
+    <label><input type="checkbox" name="support[]" value="会場"> 会場選定</label>
+    <label><input type="checkbox" name="support[]" value="ホテル"> ホテルコーディネート</label>
+    <label><input type="checkbox" name="support[]" value="空間"> 空間演出・デザイン</label>
+    <label><input type="checkbox" name="support[]" value="映像"> 映像・音響演出</label>
+    <label><input type="checkbox" name="support[]" value="運営"> 運営・進行管理</label>
+    <label><input type="checkbox" name="support[]" value="制作"> 制作物デザイン</label>
+    <label><input type="checkbox" name="support[]" value="PR"> 集客・PR</label>
+    <label><input type="checkbox" name="support[]" value="その他"> その他</label>
+  </div>
+</div>
+
+  <!-- ご相談内容 -->
+  <div class="contact-form__item">
+    <label for="message">
+      ご相談内容 <span class="contact-form__required">必須</span>
+    </label>
+
+    <textarea
+      id="message"
+      name="message"
+      rows="8"
+      placeholder="例）
+・開催目的
+・イベント概要
+・希望会場
+・実施時期
+・ご予算
+・現在のお悩み
+などをご自由にご記入ください。"
+      required></textarea>
+  </div>
+
+  <!-- 添付資料 -->
+  <div class="contact-form__item">
+    <div class="contact-form__list-wrapper">
+    <label for="file">添付資料</label>
+
+    <p>企画書・RFP・会場資料など</p>
+</div>
+
+    <input
+      type="file"
+      id="file"
+      name="attachment">
+  </div>
+
+
+  <button class="contact-form__submit"  type="submit">
+    送信する
+  </button>
+
+</form>
+
+
+  <section class="contact">
+
+      <h2 class="section__title-contact">CONTACT</h2>
+      <p class="section__subtitle">お問い合わせ</p>
+      <p class="contact__text">イベントや空間づくりに関するご相談・ご依頼は<br>
+        下記フォームよりお気軽にお問い合わせください。</p>
+
+      <a class="contact__btn" href="contact.html">CONTACT US
+        <span class="contact__arrow"></span></a>
+
+    </section>
+
+
+  </main>
+
+
+
+
+  <footer class="footer bg-grn">
+    <a href="index.html"><img class="footer__logo" src="assets/images/create-line_logo--white.svg" alt=""></a>
+    <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a href="about.html">ABOUT US</a></li>
+
+      <li class="footer__nav-item"><a href="service.html">WHAT WE DO</a></li>
+
+      <li class="footer__nav-item"><a href="doctor.html">WORKS</a></li>
+
+      <li class="footer__nav-item"><a href="access.html">NEWS</a></li>
+
+      <li class="footer__nav-item"><a href="news.html">CONTACT</a></li>
+
+      
+        <li class="footer__nav-item recruit__btn">
+          <a href="news.html" target="_blank">RECRUIT</a></li>
+      
+    </ul>
+
+
+    <div class="footer__address">
+      <p class="footer__copy">From Space<br>to Experience.</p>
+
+      <div class="footer__address-wrapper">
+        <img class="footer__address-icon map-icon" src="assets/images/mapｰicon.svg" alt="">
+        <div>
+          <p class="footer__address-title">ADDORESS</p>
+          <address class="footer__address-text">〒107-0062<br>東京都港区南青山3-12-8<br>原宿第一ビル 5F</address>
+        </div>
+      </div>
+
+      <div class="footer__address-wrapper">
+        <img class="footer__address-icon mail-icon" src="assets/images/mail-icon.svg" alt="">
+        <div>
+          <p class="footer__address-title">EMAIL</p>
+          <a class="footer__address-text" href="">info@create-line.jp</a>
+        </div>
+      </div>
+      <div class="footer__address-wrapper">
+        <img class="footer__address-icon tel-icon" src="assets/images/tel-icon.svg" alt="">
+        <div>
+          <p class="footer__address-title">TEL</p>
+          <a class="footer__address-text" href="tel:0312345678">03-1234-5678</a>
+          <p class="footer__address-text">(平日　10:00-19:00)</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer__copyright">&copy;CREATE LINE Inc.</p>
+    <p class="footer__note">※本サイトはポートフォリオ用に制作した架空のサイトです</p>
+  </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
