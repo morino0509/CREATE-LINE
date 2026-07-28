@@ -1,0 +1,16 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke-linecap="round">
+    <path d="M70 28
+         C40 28 25 45 25 60
+         C25 80 40 95 70 95" stroke="#111" stroke-width="3"></path>
+    <line x1="70" y1="60" x2="140" y2="60" stroke="#C8A15A" stroke-width="3"></line>
+  </g>
+
+  <text x="165" y="66" font-family="Helvetica, Arial, sans-serif" font-size="26" letter-spacing="5" fill="#111">
+    CREATE LINE
+  </text>
+
+  <text x="165" y="88" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#888">
+    HOTEL EVENT DESIGN STUDIO
+  </text>
+</svg>
